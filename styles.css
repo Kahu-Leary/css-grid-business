@@ -127,14 +127,13 @@ img {
 .box {
   background: var(--primary);
   text-align: center;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1rem;
   box-shadow: var(--shadow);
 }
 
 .boxes {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 /* Info */
@@ -172,6 +171,18 @@ footer {
 }
 
 /* Media Queries */
+
+@media(min-width: 1200px) {
+  .wrapper {
+   display: grid;
+   padding-top: 0;
+  }
+
+  .boxes {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  } 
+
+}
 
 @media(max-width: 768px) {
   .top-container {
