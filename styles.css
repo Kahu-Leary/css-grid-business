@@ -208,10 +208,10 @@ footer {
       'showcase'
       'top-box-a'
       'top-box-b';
-    gap: 0px;
   }
 
   .showcase {
     padding: 1rem;
   }
+
 }
